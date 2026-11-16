@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f4f7;
+    color: #333;
+}
+
+header {
+    background-color: #243b55;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #141e30;
+    padding: 15px;    
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: #F2842F;
+}
+
+.tanitim {
+    background-color: #fff;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.tanitim h2 {
+    color: #243b55;
+}
+
+.mezun-karti {
+    background-color: #fff;
+    width: 70%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    position: relative;
+}
+
+.profil {
+    width: 90px;
+    height: 90px;
+    background-color: #243b55;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 90px;
+    font-size: 25px;
+
+    float: left;
+    margin-right: 20px;
+}
+
+.temizle {
+    clear: both;
+}
+
+.mezun-karti h3 {
+    color: #243b55;
+}
+
+.etiket {
+    background-color: #F2842F;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.margin-top {
+    display: inline-block;
+    padding: 5px;
+}
+
+footer {
+    background-color: #141e30;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* ekran genişliği 600px ve altı olduğunda aşağıdaki css kuralları geçerli olur. */
+@media screen and (max-width: 600px) {
+    .mezun-karti {
+        width: 85% ;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+    .tanitim {
+        margin: 15px;
+        padding: 15px;
+    }
+    .etiket {
+        position: static;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .profil {
+        float: none;
+        margin: 0 auto 15px auto;
+    }
+    .mezun-karti {
+        text-align: center;
+    }
+}
